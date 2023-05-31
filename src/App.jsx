@@ -17,10 +17,10 @@ function App() {
 
     emailjs
       .sendForm(
-        "service_up38wba",
-        "template_9kcgmvy",
+        "service_i13fbgj",
+        "template_sefbscy",
         form.current,
-        "nGT6S_bc0gF5WKZMB"
+        "eHhT_sUnNq4xk-_5v"
       )
       .then(
         (result) => {
@@ -44,9 +44,9 @@ function App() {
           Fashion| Travel| Events| Consultations.
         </h4>
       </div>
-      <div className="flex flex-col gap-12 justify-center items-center 2xl:pr-40 lg:pr-0 sm:gap-7">
+      <div className="flex flex-col gap-12 justify-center items-center 2xl:pr-40 lg:pr-0 lg:mt-24 lg:mb-20 sm:gap-7">
         <div className="flex flex-col gap-4 sm:gap-2">
-          <div className="flex flex-col items-center gap-2 text-5xl font-bold text-black font-poppins sm:text-2xl sm:gap-1">
+          <div className="flex flex-col items-center gap-2 text-5xl font-bold text-black font-poppins md:text-2xl sm:gap-1">
             <h2>Hey!</h2>
             <h2>We are cooking it up...</h2>
           </div>
@@ -73,6 +73,7 @@ function App() {
             Notify Me
           </button>
         </form>
+        <img src={communityImg} alt="community" className="w-60 h-60 hidden lg:block" />
       </div>
       <div className="flex justify-between sm:flex-wrap sm:gap-4">
         <a
